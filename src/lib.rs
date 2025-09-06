@@ -1,7 +1,6 @@
 #![feature(test)]
 pub mod bees;
 pub mod btree;
-pub mod common;
 pub mod ffi;
 pub mod flex;
 pub mod slotted_branch;
