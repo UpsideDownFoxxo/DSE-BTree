@@ -1,0 +1,16 @@
+[package]
+name = "btree"
+version = "0.1.0"
+edition = "2021"
+
+
+[lib]
+name = "btree"
+crate-type = ["staticlib"]
+
+[profile.release]
+debug = true
+
+[dependencies]
+bytemuck = { version = "1.23.0", features = ["derive"] }
+rand = "0.9.1"
